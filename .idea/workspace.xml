@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="68f09326-b3cf-4915-b535-d8922f0d0d25" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore " beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore " afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,6 +35,12 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -53,7 +58,7 @@
       <option name="presentableId" value="Default" />
       <updated>1587500388488</updated>
       <workItem from="1587500389959" duration="6000" />
-      <workItem from="1588329851048" duration="1527000" />
+      <workItem from="1588329851048" duration="1915000" />
     </task>
     <servers />
   </component>
@@ -61,9 +66,9 @@
     <option name="version" value="2" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1143" y="355" width="616" height="403" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1588330345888">
+    <state x="1143" y="355" width="616" height="403" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1588331555766">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state x="1143" y="355" width="616" height="403" key="#com.intellij.fileTypes.FileTypeChooser/67.27.1853.1053@67.27.1853.1053" timestamp="1588330345888" />
+    <state x="1143" y="355" width="616" height="403" key="#com.intellij.fileTypes.FileTypeChooser/67.27.1853.1053@67.27.1853.1053" timestamp="1588331555766" />
   </component>
 </project>
