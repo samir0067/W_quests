@@ -14,8 +14,7 @@
     <li>
         <a href="">
         HTML : les bonnes pratiques
-        </a> 
-    </li>
+        </a>     </li>
     <li>
         <a href="">
         </a> 
