@@ -68,7 +68,6 @@
         <strong>Les chaînes de caractères en PHP.</strong>
         </a>
     </li>
-</ul>
     <li>
         <a href="https://github.com/samir0067/W_quests/tree/master/PHP/lesFormulairesEnPHPRecuperation">
         <strong>Les formulaires en PHP - Récupération.</strong>
@@ -91,7 +90,7 @@
     </li>
     <li>
         <a href="https://github.com/samir0067/W_quests/tree/master/PHP/LaissePasTrainerTonFile">
-        Laisse pas traîner ton File
+        <strong>Laisse pas traîner ton File</strong>
         </a>
     </li>
     <li>
