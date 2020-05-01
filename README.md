@@ -106,6 +106,7 @@
     </li>
     <li>
         <a href="">
+        <strong>Sessions.</strong>
         </a>
     </li>
 <hr>
