@@ -1,0 +1,77 @@
+/* Général */
+* {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+/* Header */
+.navbar {
+    background-color: slategray;
+}
+.carousel-item {
+    max-height: 400px;
+}
+
+/* Section Card */
+.Portfolio {
+    justify-content: center;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+.as_section_card {
+    height: 480px;
+    border-bottom: 1px solid black;
+}
+.as_title_card h2 {
+    margin-top: 20px;
+    text-align: center;
+}
+.as_title_message {
+    margin-left: 5px;
+}
+.as_card {
+    margin-top: 25px;
+    height: 270px;
+    border-radius: 2%
+}
+.as_card_img {
+    height: 200px;
+    position: relative;
+    overflow: hidden;
+}
+.as_card_body {
+    position: absolute;
+    top: 75px;
+    left: 10px;
+    bottom: 100px;
+    right: 10px;
+    border-radius: 5%;
+    background: rgba(0, 0, 0, 0.6);
+    transform: scaleY(0);
+    transition: transform 0.5s;
+}
+.Portfolio .as_card:hover .as_card_body {
+    transform: scaleY(1);
+}
+.as_content {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #fff;
+}
+.as_content p {
+    font-weight: bold;
+}
+
+/* Section Form */
+.as_section_form {
+    margin-top: 50px;
+}
+
+
+/*  Footer */
+footer {
+    margin: 17px 0 0 0;
+    background-color: slategray;
+}
