@@ -65,7 +65,8 @@
         </a>
     </li>
     <li>
-        <a href="">
+        <a href="https://github.com/samir0067/W_quests/tree/master/Base%20de%20donn%C3%A9es/recupInfoSELECT">
+        <strong>Récupérer des informations avec SELECT</strong>
         </a>
     </li>
     <li>
