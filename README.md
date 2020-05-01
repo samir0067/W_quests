@@ -8,11 +8,12 @@
 <ul>
     <li>
         <a href="https://github.com/samir0067/W_quests/tree/master/Integration/UxDesign">
-        Découvre l'UX Design : l'utilisabilité Intégration - MàJ 03 février 2020
+        <p><strong>Découvre l'UX Design: </strong>l'utilisabilité Intégration - MàJ 03 février 2020</p>
         </a> 
     </li>
     <li>
         <a href="">
+        HTML : les bonnes pratiques
         </a> 
     </li>
     <li>
