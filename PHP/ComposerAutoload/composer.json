@@ -1,0 +1,16 @@
+{
+    "name": "as/composer1",
+    "authors": [
+        {
+            "name": "samir0067",
+            "email": "arrahmani.samir@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "App\\": "src"
+        }
+    },
+    "require": {
+    }
+}
