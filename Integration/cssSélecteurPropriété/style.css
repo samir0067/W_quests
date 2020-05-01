@@ -1,0 +1,62 @@
+body {
+
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+/* English : Replace the dots below by a selector targeting all the images of the page. */
+
+/* Français : Remplace les points ci-dessous par un sélecteur ciblant toutes les images de la page. */
+
+img{
+
+    width: 300px;
+
+    height: 300px;
+
+    border-radius : 30px; /* English : Replace with a property that makes the image borders look rounded. */
+
+    /* Français : Remplace par une propriété arrondissant les angles de l'image. */
+
+}
+
+/* English : Replace the dots below by a class named "hover-effect" with a :hover pseudo-class. This class has to target the first image and the last image of the page. */
+
+/* Français : Remplace les points ci-dessous par une classe "hover-effect" avec une pseudo-classe :hover. Cette classe doit cibler la première image et la troisième image de la page. */
+
+.hover-effect:hover{
+
+    opacity: 0.8; /* English : Replace with a property responsible for opacity changes. */
+
+    cursor: pointer; /* Français : Remplace par une propriété modifiant l'opacité. */
+
+}
+
+/* English : Replace the dots below by a selector targeting the second image of the page. Do not use a class or an id! */
+
+/* Français : Remplace les points ci-dessous par un sélecteur ciblant la seconde image de la page. N'utilise pas de classe ou d'id ! */
+
+img:nth-child(3) {
+
+    -webkit-filter: grayscale(100%); /* Pour les navigateurs Chrome, Safari, Opera */
+
+    filter: grayscale(100%); /* Firefox */
+}
+/* English : Replace with a property that makes the image look black & white. */
+
+/* Français
+
+Comment on gist
+
+Comment
+
+Notifications for this thread
+
+You’re receiving notifications because you authored the thread.
+
+Unsubscribe
+
+Desktop versionSign out
+
+Want to always use desktop?Default to desktop
+*/

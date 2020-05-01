@@ -12,9 +12,10 @@
         </a> 
     </li>
     <li>
-        <a href="">
-        HTML : les bonnes pratiques
-        </a>     </li>
+        <a href="https://github.com/samir0067/W_quests/tree/master/Integration/htmlBonnePratique">
+        <strong>HTML:</strong> les bonnes pratiques
+        </a>     
+        </li>
     <li>
         <a href="">
         </a> 
