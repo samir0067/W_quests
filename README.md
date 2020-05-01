@@ -108,6 +108,7 @@
         <strong>Sessions.</strong>
         </a>
     </li>
+</ul>
 <hr>
 
 <h3>Base de données</h3>
