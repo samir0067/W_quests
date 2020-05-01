@@ -1,0 +1,177 @@
+/* Afin de valider ton code CSS, clic sur la petite flèche en haut à droite de cette fenêtre. Pour rappel, tu peux jeter un oeil par ici pour en savoir un peu plus: https://blog.codepen.io/2017/10/11/analyze-css-now-using-stylelint/ */
+
+/* GENERAL----------------------------*/
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    width: 1200px;
+    font-family: Arial, sans-serif;
+    background: #f4ddd8;
+    font-size: 15px;
+}
+h1 {
+    font-size: 51px;
+}
+h2 {
+    font-size: 37px;
+}
+h3 {
+    font-size: 27px;
+}
+h1,
+h2,
+h3,
+strong,
+a {
+    font-family: "Amatic SC", sans-serif;
+}
+strong {
+    font-size: 19px;
+}
+p {
+    line-height: 20px;
+}
+ul {
+    list-style: none;
+}
+a {
+    font-size: 27px;
+    text-decoration: none;
+    color: #b937a8;
+}
+.red {
+    text-transform: uppercase;
+    color: red;
+}
+/* Menu----------------------- */
+header {
+    height: 100px;
+    background: url("");
+}
+header h1 {
+    float: left;
+    margin: 13px 190px;
+}
+header nav {
+    float: right;
+    margin-right: 99px;
+}
+header nav ul li
+{
+    float: left;
+    margin-top: 40px;
+}
+header nav ul li a
+{
+    text-transform: uppercase;
+    font-weight: bold;
+    margin: 10px;
+}
+header nav ul li a:hover
+{
+    font-weight: normal;
+}
+/* Performances--------------------- */
+
+#allperformance
+{
+    background: #f93033;
+    text-align: center;
+    border: 1px solid #fff;
+}
+#allperformance h3
+{
+    text-transform: uppercase;
+    margin: 10px;
+}
+
+#allperformance ul
+{
+    margin: 0 40px;
+}
+
+#allperformance ul li {
+    width: 310px;
+    float: left;
+    padding: 30px;
+}
+/* About As---------------------- */
+.information {
+    padding-top: 280px;
+    height: 475PX;
+    background:url("https://i.postimg.cc/CLkBcn1Q/chapiteau.gif");
+    background-position: bottom;
+    background-repeat: no-repeat;
+}
+#about
+{
+
+    font-weight: bolder;
+    text-shadow: #fff 1px 2px 2px;
+
+}
+/* prices------------- */
+#prices
+{
+    height: 250px;
+    margin: 5% 30%;
+}
+thead,
+tfoot
+{
+    background-color: #6c23b9;
+    color: #fff;
+}
+
+tbody
+{
+    background-color: #b29cca;
+}
+
+caption
+{
+    padding: 10px;
+    caption-side: bottom;
+}
+
+table
+{
+    border: 2px solid rgb(200, 200, 200);
+    letter-spacing: 1px;
+    font-family: sans-serif;
+    font-size: 0.8rem;
+}
+td,
+th
+{
+    border: 1px solid rgb(190, 190, 190);
+    padding: 5px 10px;
+}
+
+td
+{
+    text-align: center;
+}
+/* Contact us---------------------- */
+
+#contact
+{
+    width: 120px;
+    vertical-align: top;
+    margin: 30px 25px 50px;
+}
+input:focus
+{
+    background: #eaeaea;
+}
+input,
+textarea
+{
+    width: 249px;
+}
+.button
+{
+    border-radius: 30px;
+}

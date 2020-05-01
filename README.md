@@ -41,8 +41,4 @@
         <strong>Intégration finale:</strong> tome I.
         </a> 
     </li>
-    <li>
-        <a href="">
-        </a> 
-    </li>
 </ul>
