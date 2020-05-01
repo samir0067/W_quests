@@ -64,6 +64,9 @@
         <strong>Les chaînes de caractères en PHP.</strong>
         </a>
     </li>
+</ul>
+<h3>Base de données</h3>
+<ul>
     <li>
         <a href="https://github.com/samir0067/W_quests/tree/master/Base%20de%20donn%C3%A9es/recupInfoSELECT">
         <strong>Récupérer des informations avec SELECT</strong>
@@ -71,6 +74,7 @@
     </li>
     <li>
         <a href="">
+        <strong>Manipulation des données.</strong>
         </a>
     </li>
     <li>
