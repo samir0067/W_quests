@@ -86,6 +86,7 @@
     </li>
     <li>
         <a href="">
+        <strong>Les vues avec Twig.</strong>
         </a>
     </li>
     <li>
