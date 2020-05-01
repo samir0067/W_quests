@@ -90,12 +90,13 @@
         </a>
     </li>
     <li>
-        <a href="">
+        <a href="https://github.com/samir0067/W_quests/tree/master/PHP/LaissePasTrainerTonFile">
         Laisse pas traîner ton File
         </a>
     </li>
     <li>
-        <a href="">
+        <a href="https://github.com/samir0067/W_quests/tree/master/PHP/PDOUnAmiPourLaVie">
+        <strong>PDO un ami pour la vie.</strong>
         </a>
     </li>
     <li>
