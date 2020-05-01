@@ -81,6 +81,7 @@
     </li>
     <li>
         <a href="">
+        <strong>Composer 2 - Package Management</strong>
         </a>
     </li>
     <li>
