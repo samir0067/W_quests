@@ -9,7 +9,7 @@
 <h3>candidature</h3>
 <ul>
     <li>
-        <a href="">
+        <a href="https://github.com/samir0067/W_quests/tree/master/MissionCandidats">
         <strong>Mission candidats.</strong>
         </a> 
     </li>
@@ -89,7 +89,7 @@
         </a>
     </li>
     <li>
-        <a href="">
+        <a href="https://github.com/samir0067/W_quests/tree/master/Base%20de%20donn%C3%A9es/SQLAvanc%C3%A9">
         <strong>SQL avancé.</strong>
         </a>
     </li>
