@@ -84,12 +84,13 @@
         </a>
     </li>
     <li>
-        <a href="">
+        <a href="https://github.com/samir0067/W_quests/tree/master/Base%20de%20donn%C3%A9es/lesJointures">
         <strong>Les jointures.</strong>
         </a>
     </li>
     <li>
         <a href="">
+        <strong>SQL avancé.</strong>
         </a>
     </li>
     <li>
