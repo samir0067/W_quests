@@ -1,0 +1,102 @@
+/*-- style.css --*/
+/*-- général --*/
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    color: #9E9A99;
+    box-sizing: border-box;
+}
+
+li, a{
+    list-style-type: none;
+    text-decoration: none;
+}
+/*-- menu --*/
+nav ul{
+    background-color: #433E3C;
+    border: 1px solid rgba(67, 62, 60, .3);
+    display: flex;
+    margin: 15px 3px 0 3px;
+}
+nav ul li{
+    padding: 7px 0;
+    color: #9E9593;
+    border: 1px solid rgba(67, 62, 60, .3);
+}
+nav ul li a{
+    padding: 10px;
+    color: #9E9593;
+    font-weight: bold;
+    font-size: 13px;
+}
+nav ul li a:hover{
+    padding: 10px;
+    border: 1px solid rgba(67, 62, 60, .2);
+    background-color: #EDE9E7;
+    color: #9E9593;
+}
+/*-- slider --*/
+.carousel{
+    background-color: #EDE9E7;
+    height: 250px;
+    margin: 0 3px;
+}
+/*-- Fellows --*/
+.Fellows{
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Fellows h2{
+    color: #433E3C;
+}
+.Hfellows{
+    color: #9E9593;
+}
+.team{
+    margin: 0 3px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.team1, .team2, .team3{
+    background-color: #EDE9E7;
+    border-radius: 4px;
+    margin: 7px;
+    width: 33%;
+    height: 100%;
+}
+/*-- Contact --*/
+.Contact{
+    border-top: 2px solid #433E3C;
+    margin: 115px 7px;
+    padding: 9px 7px 0 12px;
+}
+.Contact h2{
+    margin-bottom: 20px;
+}
+.Contact input, .Contact select, .Contact textarea{
+    width: 80%;
+    margin: 6px 10%;
+    padding: 6px;
+}
+.Contact input, .Contact textarea{
+    border: 1.5px solid #433E3C;
+}
+/* -- media queries -- */
+@media screen and (max-width: 961px){
+    .carousel, .team{
+        display: none;
+    }
+    .Contact h2{
+        text-align: center;
+        margin-top: 60px;
+    }
+    .Fellows div h2{
+        text-align: center;
+        margin-top: 100px;
+    }
+}
