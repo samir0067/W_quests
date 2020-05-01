@@ -55,12 +55,13 @@
 <h3>PHP</h3>
 <ul>
     <li>
-        <a href="">
+        <a href="https://github.com/samir0067/W_quests/tree/master/PHP/lesSha%C3%AEnesCaract%C3%A8resPHP">
         <strong>Les variables en PHP.</strong>
         </a>
     </li>
     <li>
-        <a href="">
+        <a href="https://github.com/samir0067/W_quests/tree/master/PHP/lesSha%C3%AEnesCaract%C3%A8resPHP">
+        <strong>Les chaînes de caractères en PHP.</strong>
         </a>
     </li>
     <li>
