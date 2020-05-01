@@ -4,6 +4,15 @@
 <hr>
 <h2>My Dashboard</h2>
 <hr>
+<h3>candidature</h3>
+<ul>
+    <li>
+        <a href="">
+        <strong>Mission candidats.</strong>
+        </a> 
+    </li>
+</ul>
+<hr>
 <h3>Integration</h3>
 <ul>
     <li>
@@ -40,5 +49,38 @@
         <a href="https://github.com/samir0067/W_quests/tree/master/Integration/int%C3%A9grationFinaleTome1">
         <strong>Intégration finale:</strong> tome I.
         </a> 
+    </li>
+</ul>
+<hr>
+<h3>PHP</h3>
+<ul>
+    <li>
+        <a href="">
+        <strong>Les variables en PHP.</strong>
+        </a>
+    </li>
+    <li>
+        <a href="">
+        </a>
+    </li>
+    <li>
+        <a href="">
+        </a>
+    </li>
+    <li>
+        <a href="">
+        </a>
+    </li>
+    <li>
+        <a href="">
+        </a>
+    </li>
+    <li>
+        <a href="">
+        </a>
+    </li>
+    <li>
+        <a href="">
+        </a>
     </li>
 </ul>
