@@ -5,9 +5,9 @@
     <title>Upload file</title>
 </head>
     <body>
-        <form action="" method="post" enctype="multipart/form-data">
+        <form action="index.php" method="post" enctype="multipart/form-data">
             <label for="">Upload image</label> </br>
-            <input type="file" name="uploaded_file[]" multiple/> </br>
+            <input type="file" name="uploadFile[]" multiple/> </br>
             <input type="submit" name="submit"/>
         </form>
     </body>
@@ -15,33 +15,28 @@
 </html>
 <?php
 
-if(!empty($_FILES['uploaded_file']['name'][0])) {
+if(!empty($_FILES['uploadFile']['name'][0])) {
+    $files = $_FILES['uploadFile']['name'];
 
-   $file = $_FILES['uploaded_file']['name'];
-   $validExt = ['jpg', 'gif', 'png'];
-   $maxSize = 1000000;
-    foreach($file as $uplo => $up) {
-        $tmpName = $_FILES['uploaded_file']['tmp_name'][$uplo];
-        $fileExt = explode(".", $up);
-        $fileExt = strtolower($fileExt[1]);
+    $validExt = ['jpg', 'gif', 'png', 'jpeg'];
+    $maxSize = 1000000;
+    foreach($files as $key => $value) {
+        $tmpName = $_FILES['uploadFile']['tmp_name'][$key];
+        $fileType = $_FILES['uploadFile']['type'];
+        $fileExt = substr($fileType[0], strpos($fileType[0], "/") + 1);
+        $uniqueId = uniqid(rand(), true);
+        $newFileName = "uploads/" . $uniqueId . $fileExt;
 
-        if( in_array($fileExt, $validExt) ) {
-            if( $_FILES['uploaded_file']['error'][$uplo] === 0 ) {
-                if( $_FILES['uploaded_file']['size'][$uplo] <= $maxSize)  {
-                    $uniqueName = uniqid(rand(), true);
-                    $fileName = "uploads/" . $uniqueName . $fileExt;
-                    if( move_uploaded_file($tmpName, $fileName)) {
-                        echo "Transfert valider </hr> ";
-                    } else {
-                        echo 'erreur transfert!!';
-                    }
-                } else {
-                    echo 'fichier trop gros!!';
-                }
-            }
-
-        } else {
+        if( !(in_array($fileExt, $validExt)) ) {
             echo "Le fichier n'est pas compatible!";
+        } elseif( $_FILES['uploadFile']['error'][$key] != 0 ) {
+            echo 'aucun fichier !';
+        } elseif( $_FILES['uploadFile']['size'][$key] > $maxSize ) {
+            echo 'fichier trop gros!!';
+        } elseif( move_uploaded_file($tmpName, $newFileName) ) {
+            echo "Transfert valider </hr> ";
+        } else {
+            echo 'erreur transfert!!';
         }
     }
 }
