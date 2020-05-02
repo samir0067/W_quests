@@ -114,22 +114,22 @@
 <h3>Base de données</h3>
 <ul>
     <li>
-        <a href="https://github.com/samir0067/W_quests/tree/master/Base%20de%20donn%C3%A9es/recupInfoSELECT">
+        <a href="https://github.com/samir0067/W_quests/tree/master/BaseDeDonn%C3%A9es/RecupInfoSELECT">
         <strong>Récupérer des informations avec SELECT</strong>
         </a>
     </li>
     <li>
-        <a href="https://github.com/samir0067/W_quests/tree/master/Base%20de%20donn%C3%A9es/manipDesDonn%C3%A9es">
+        <a href="https://github.com/samir0067/W_quests/tree/master/BaseDeDonn%C3%A9es/ManipDesDonn%C3%A9es">
         <strong>Manipulation des données.</strong>
         </a>
     </li>
     <li>
-        <a href="https://github.com/samir0067/W_quests/tree/master/Base%20de%20donn%C3%A9es/lesJointures">
+        <a href="https://github.com/samir0067/W_quests/tree/master/BaseDeDonn%C3%A9es/lesJointures">
         <strong>Les jointures.</strong>
         </a>
     </li>
     <li>
-        <a href="https://github.com/samir0067/W_quests/tree/master/Base%20de%20donn%C3%A9es/SQLAvanc%C3%A9">
+        <a href="https://github.com/samir0067/W_quests/tree/master/BaseDeDonn%C3%A9es/SQLAvanc%C3%A9">
         <strong>SQL avancé.</strong>
         </a>
     </li>
