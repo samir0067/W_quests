@@ -22,18 +22,17 @@ if(!empty($_FILES['uploadFile']['name'][0])) {
     $maxSize = 1000000;
     foreach($files as $key => $value) {
         $tmpName = $_FILES['uploadFile']['tmp_name'][$key];
+        var_dump($key);
+        var_dump($tmpName);
         $fileType = $_FILES['uploadFile']['type'];
         $fileExt = substr($fileType[0], strpos($fileType[0], "/") + 1);
         $uniqueId = uniqid(rand(), true);
         $newFileName = "uploads/" . $uniqueId . $fileExt;
-
-        if( !(in_array($fileExt, $validExt)) ) {
+        if(!(in_array($fileExt, $validExt)) || ($_FILES['uploadFile']['error'][$key] != 0)) {
             echo "Le fichier n'est pas compatible!";
-        } elseif( $_FILES['uploadFile']['error'][$key] != 0 ) {
-            echo 'aucun fichier !';
-        } elseif( $_FILES['uploadFile']['size'][$key] > $maxSize ) {
+        } elseif($_FILES['uploadFile']['size'][$key] > $maxSize) {
             echo 'fichier trop gros!!';
-        } elseif( move_uploaded_file($tmpName, $newFileName) ) {
+        } elseif(move_uploaded_file($tmpName, $newFileName)) {
             echo "Transfert valider </hr> ";
         } else {
             echo 'erreur transfert!!';
