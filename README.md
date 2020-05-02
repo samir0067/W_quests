@@ -44,7 +44,7 @@
         </a> 
     </li>
     <li>
-        <a href="https://github.com/samir0067/W_quests/tree/master/Integration/%20BootstrapSyst%C3%A8meGrille">
+        <a href="https://github.com/samir0067/W_quests/tree/master/Integration/BootstrapSyst%C3%A8meGrille">
         <strong>Bootstrap:</strong> le système de grilles.
         </a> 
     </li>
@@ -59,17 +59,17 @@
 <h3>PHP</h3>
 <ul>
     <li>
-        <a href="https://github.com/samir0067/W_quests/tree/master/PHP/lesSha%C3%AEnesCaract%C3%A8resPHP">
+        <a href="https://github.com/samir0067/W_quests/tree/master/PHP/LesVariablesPHP">
         <strong>Les variables en PHP.</strong>
         </a>
     </li>
     <li>
-        <a href="https://github.com/samir0067/W_quests/tree/master/PHP/lesSha%C3%AEnesCaract%C3%A8resPHP">
+        <a href="https://github.com/samir0067/W_quests/tree/master/PHP/LesSha%C3%AEnesCaract%C3%A8resPHP">
         <strong>Les chaînes de caractères en PHP.</strong>
         </a>
     </li>
     <li>
-        <a href="https://github.com/samir0067/W_quests/tree/master/PHP/lesFormulairesEnPHPRecuperation">
+        <a href="https://github.com/samir0067/W_quests/tree/master/PHP/LesFormulairesEnPHPRecuperation">
         <strong>Les formulaires en PHP - Récupération.</strong>
         </a>
     </li>
